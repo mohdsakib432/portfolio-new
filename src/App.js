@@ -96,7 +96,7 @@ export default function Portfolio() {
             <a href="https://github.com/mohdsakib432" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
-            <a href="www.linkedin.com/in/mohd-sakib-ansari-2568852b0" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/mohd-sakib-ansari-2568852b0" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </div>
