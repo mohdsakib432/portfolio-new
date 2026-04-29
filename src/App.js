@@ -93,10 +93,10 @@ export default function Portfolio() {
 
           {/* Social Links */}
           <div className="flex gap-4 mt-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mohdsakib432" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="www.linkedin.com/in/mohd-sakib-ansari-2568852b0" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </div>
