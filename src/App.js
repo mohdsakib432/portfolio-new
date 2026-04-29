@@ -184,7 +184,7 @@ export default function Portfolio() {
               message: e.target.message.value,
             };
 
-            await fetch("https://your-backend.onrender.com/contact", {
+            await fetch("http://127.0.0.1:8000/contact", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify(data),
