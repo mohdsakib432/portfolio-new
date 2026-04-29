@@ -179,18 +179,29 @@ export default function Portfolio() {
         <form
           onSubmit={async (e) => {
             e.preventDefault();
+
             const data = {
               email: e.target.email.value,
               message: e.target.message.value,
             };
 
-            await fetch("http://127.0.0.1:8000/contact", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(data),
-            });
+            try {
+              const res = await fetch("https://portfolio-backend-qwne.onrender.com/contact", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+              });
 
-            alert("Message Sent 🚀");
+              const result = await res.json();
+              console.log(result);
+
+              alert("Message Sent 🚀");
+            } catch (error) {
+              console.error(error);
+              alert("Error sending message ❌");
+            }
           }}
           className="flex flex-col gap-4 max-w-md mx-auto"
         >
