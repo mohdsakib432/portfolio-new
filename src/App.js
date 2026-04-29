@@ -10,17 +10,30 @@ export default function Portfolio() {
   // ✅ Projects data
   const projects = [
     {
-      name: "Voice Recorder App",
+      name: "my_myntra_app",
       demo: "https://your-demo-link.com",
-      github: "https://github.com/yourusername/voice-recorder",
-      image: "https://via.placeholder.com/400x250"
+      github: "https://github.com/mohdsakib432/my_myntra_app",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiuJNRQtUcRf5jwtHSQIRAElLd7iw9-QBJjQ&s"
     },
     {
-      name: "Admin Panel",
+      name: "face-age-gender-emotion",
       demo: "https://your-demo-link.com",
-      github: "https://github.com/yourusername/admin-panel",
-      image: "https://via.placeholder.com/400x250"
-    }
+      github: "https://github.com/mohdsakib432/face-age-gender-emotion",
+      image: "https://visagetechnologies.com/app/uploads/2022/07/Face-Analysis-gender-estimation.webp"
+    },
+    {
+      name: "finger-based-air-writing-ai",
+      demo: "https://your-demo-link.com",
+      github: "https://github.com/mohdsakib432/finger-based-air-writing-ai",
+      image: "https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-981-16-1103-2_2/MediaObjects/512560_1_En_2_Fig6_HTML.png"
+    },
+    {
+      name: "fastapi_project",
+      demo: "https://your-demo-link.com",
+      github: "https://github.com/mohdsakib432/fastapi_project",
+      image: "https://dezyre.gumlet.io/images/blog/fastapi-projects/fastapi_projects.png?w=576&dpr=1.3"
+    },
+
   ];
 
   // Typing effect
