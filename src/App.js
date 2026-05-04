@@ -134,15 +134,6 @@ export default function Portfolio() {
 
           {/* Buttons */}
           <div className="flex gap-4 mt-6 flex-wrap justify-center">
-            <motion.a
-              whileHover={{ scale: 1.1, rotate: 1 }}
-              whileTap={{ scale: 0.95 }}
-              href="/resume_sakib.pdf"
-              target="_blank"
-              className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl shadow-lg shadow-blue-500/50"
-            >
-              View Resume
-            </motion.a>
 
             <motion.a
               whileHover={{ scale: 1.1 }}
