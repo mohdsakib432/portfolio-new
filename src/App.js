@@ -139,7 +139,7 @@ export default function Portfolio() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               href="/resume_Sakib.pdf"
-              download="resume_Sakib.pdf"
+              download="/resume_Sakib.pdf"
               className="px-6 py-3 border border-white rounded-xl hover:bg-white hover:text-black transition"
             >
               ⬇ Download Resume
