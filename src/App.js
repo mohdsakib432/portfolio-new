@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ThreeScene from "./ThreeScene";
-import { FaFlutter, FaPython, FaGitAlt } from "react-icons/fa";
 
 export default function Portfolio() {
   const [dark, setDark] = useState(true);
