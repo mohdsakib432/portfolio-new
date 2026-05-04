@@ -137,11 +137,12 @@ export default function Portfolio() {
 
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href={`${process.env.PUBLIC_URL}/resume_Sakib.pdf`}
-              download
-              className="px-6 py-3 border border-white rounded-xl"
+              whileTap={{ scale: 0.95 }}
+              href="/resume_Sakib.pdf"
+              download="resume_Sakib.pdf"
+              className="px-6 py-3 border border-white rounded-xl hover:bg-white hover:text-black transition"
             >
-              Download Resume
+              ⬇ Download Resume
             </motion.a>
           </div>
 
