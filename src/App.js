@@ -146,7 +146,7 @@ export default function Portfolio() {
 
             <motion.a
               whileHover={{ scale: 1.1 }}
-              href="/resume_Sakib.pdf"
+              href={`${process.env.PUBLIC_URL}/resume_Sakib.pdf`}
               download
               className="px-6 py-3 border border-white rounded-xl"
             >
