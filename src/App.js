@@ -225,7 +225,11 @@ export default function Portfolio() {
               whileHover={{ y: -10 }}
               className="rounded-2xl overflow-hidden bg-white/5 backdrop-blur border border-white/10"
             >
-              <img src={p.image} className="w-full h-40 object-cover" />
+              <img
+                src={p.image}
+                alt="project preview"
+                className="w-full h-40 object-cover"
+              />
 
               <div className="p-4">
                 <h3 className="font-bold">{p.name}</h3>
