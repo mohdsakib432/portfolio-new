@@ -7,7 +7,7 @@ import {
     MeshDistortMaterial,
     Sphere,
     Stars,
-    Text
+    Text,
 } from "@react-three/drei";
 // 🌌 Animated Sphere
 function AnimatedSphere() {
