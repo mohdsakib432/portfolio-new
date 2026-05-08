@@ -138,7 +138,7 @@ export default function Portfolio() {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="/new_resume_sakib.pdf.pdf"
+              href="/new_resume_sakib.pdf"
               download="/new_resume_sakib.pdf"
               className="px-6 py-3 border border-white rounded-xl hover:bg-white hover:text-black transition"
             >
@@ -149,7 +149,7 @@ export default function Portfolio() {
           {/* Social */}
           <div className="flex gap-4 mt-4">
             <a href="https://github.com/mohdsakib432">GitHub</a>
-            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="www.linkedin.com/in/mohd-sakib-ansari-2568852b0">LinkedIn</a>
           </div>
         </div>
       </div>
